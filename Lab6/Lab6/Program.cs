@@ -18,6 +18,17 @@ to access each of the elements in p are __p[0]_____, ___ p[1]____,
 ___ p[2]____ and ___ p[3]___.
 
              */
+            int main()
+            {
+                int n = 8;
+                int i = 10; // initialize
+                do
+                {
+                    Console.Write("*");
+                    i++; // update!
+                } while (i < n); // test condition
+
+            }
 
 
             string[] Months = new string[12];
